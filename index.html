@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>KMC Papers · Every Class XI exam paper in one place</title>
+<meta name="description" content="KMC Class XI Science question papers: First Term 2082, past years, pre-term sets, weekly tests and Questions of the Week. Clean, fast, free.">
+<meta property="og:title" content="KMC Papers">
+<meta property="og:description" content="Every KMC Class XI paper. One clean place.">
+<meta name="theme-color" content="#08090a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%237c6cff%22/><path d=%22M9 8v16M9 16l9-8M12 14l7 10%22 stroke=%22white%22 stroke-width=%223%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow"></div>
+<header class="nav">
+  <div class="nav-in">
+    <a href="#/" class="brand"><span class="logo">K</span><span>KMC Papers</span></a>
+    <div class="search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" placeholder="Search papers, subjects, years…" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+    <button id="theme" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">
+      <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+<main id="app"></main>
+<footer class="foot">
+  <div>Made for KMC Class XI Science students. Free to use and share.</div>
+  <div class="muted">Papers belong to their respective owners. Collected for study.</div>
+</footer>
+<div id="lb" class="lb" hidden>
+  <div class="lb-top"><span id="lbc"></span><div><a id="lbo" class="icon-btn" target="_blank" title="Open original"><svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a><button id="lbx" class="icon-btn" title="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div></div>
+  <button id="lbp" class="lb-nav l" aria-label="Previous"><svg viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></button>
+  <div id="lbs" class="lb-stage"><img id="lbi" alt=""></div>
+  <button id="lbn" class="lb-nav r" aria-label="Next"><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></button>
+  <div class="lb-hint">Click to zoom · ← → to flip · Esc to close</div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
